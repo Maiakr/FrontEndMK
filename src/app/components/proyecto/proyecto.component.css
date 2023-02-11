@@ -12,3 +12,7 @@
 .img-proyecto{
     box-shadow: 10px 10px 30px #000000;
 }
+h1{
+    display: inline;
+    text-decoration-line: underline;
+}

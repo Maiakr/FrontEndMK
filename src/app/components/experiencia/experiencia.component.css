@@ -4,6 +4,10 @@
 div{
     background: linen;
 }
-h1,h3{
+h1{
+    display: inline;
+    text-decoration-line: underline;
+}
+h3{
     display: inline;
 }
