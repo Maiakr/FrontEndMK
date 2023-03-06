@@ -8,6 +8,8 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
+  expURL = 'https://maiakr-maiakr.koyeb.app/personas/';
+
   URL= environment.URL +'personas/';
 
   constructor(private http: HttpClient) { }

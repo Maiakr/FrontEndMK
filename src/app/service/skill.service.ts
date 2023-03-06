@@ -8,6 +8,8 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
+  expURL = 'https://maiakr-maiakr.koyeb.app/skill/';
+
   URL= environment.URL + 'skill/';
 
   constructor(private httpClient: HttpClient) { }

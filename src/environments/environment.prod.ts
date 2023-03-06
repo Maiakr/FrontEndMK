@@ -1,4 +1,4 @@
-/**export const environment = {
+export const environment = {
     production: true,
-    URL:''
-}**/
+    URL:'https://maiakr-maiakr.koyeb.app/'
+};

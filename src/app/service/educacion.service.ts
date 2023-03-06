@@ -8,6 +8,8 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
+expURL = 'https://maiakr-maiakr.koyeb.app/educacion/';
+
 URL= environment.URL +'educacion/';
 
   constructor(private httpClient: HttpClient) { }
